@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    clear: both;
+    margin: 0 auto;
+    width: 960px;
+}
+
+header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: #333;
+    background: #ffffff;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 28px;
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 280px;
+    text-align: center;
+    float: left;
+    height: 100%;
+}
+
+#right-corner {
+    float: left;
+    padding: 20px 20px 20px 382px;
+    height: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ccc;
+}
+
+#vert {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    float: left;
+    background: #dddddd;
+    border: 0;
+    color: #ccc;
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:unvisited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #777777;
+    text-decoration: none;
+}
+
+#about {
+    float: left;
+    padding: 20px;
+}
+
+#portfolio {
+    float: left;
+    padding: 20px;
+}
+
+#contact {
+    float: left;
+    padding: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 15px 0px 20px 10px;
+}
+
+#biobreak {
+    margin: 0px 0px 25px 0px;
+    height: 2px;
+    background: #dddddd;
+    color: #ccc;
+    border: 0;
+}
+
+#main-bio {
+    margin: 60px 40px 40px 0px;
+    float: left;
+    padding: 18px;
+    border: 0.5px solid #dddddd;
+    background: #ffffff;
+    width: 650px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 28px;
+}
+
+.pdescription {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 132px;
+}
+
+#img1 {
+    background-image: url(http://lorempixel.com/265/200/abstract);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+#img2 {
+    background-image: url(http://lorempixel.com/265/200/cats);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+#img3 {
+    background-image: url(http://lorempixel.com/265/200/sports);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+#img4 {
+    background-image: url(http://lorempixel.com/265/200/food);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+h3 {
+    font-size: 21px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 3px;
+    margin: 20px 0px 0px 0px;
+}
+
+#contact-info {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    float: left;
+    border: 0.5px solid #dddddd;
+    background: #ffffff;
+    margin: 60px 0px 40px 0px;
+    width: 260px;
+    height: 180px;
+}
+
+#connectbreak {
+    width: 80%;
+    margin: 15px 10px 15px 10px;
+    height: 1px;
+    background: #dddddd;
+    color: #ccc;
+    border: 0;
+    display: inline-block;
+}
+
+
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    color: #ccc;
+    clear: both;
+    padding: 40px;
+    clear: both;
+    background: #666;
+    text-align: center;
+    border-top: 7px solid #4aaaa5;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+body {
+    background-image: url("../images/concrete_seamless.png");
+}
