@@ -6,6 +6,8 @@
     clear: both;
     margin: 0 auto;
     width: 960px;
+  min-height: 100%;
+
 }
 
 header {
@@ -116,6 +118,82 @@ p{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 28px;
 }
+
+.pdescription {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+#img1 {
+    background-image: url(http://lorempixel.com/265/200/abstract);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+#img2 {
+    background-image: url(http://lorempixel.com/265/200/cats);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+#img3 {
+    background-image: url(http://lorempixel.com/265/200/sports);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+#img4 {
+    background-image: url(http://lorempixel.com/265/200/food);
+    background-position: center;
+    width: 265px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+#name{
+  width: 100%;
+  padding: 5px;
+}
+
+#email{
+  width: 100%;
+  padding: 5px;
+}
+
+#comment{
+  height: 250px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+#sub{
+  width: 100px;
+  height: 36px;
+  margin: 10px 0px 0px 0px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+}
+
+
 h3 {
 	font-size: 21px;
 	color: #4aaaa5;
@@ -147,6 +225,12 @@ h3 {
 	display: inline-block;
 }
 
+html,
+body {
+    height: 94%;
+    margin: 0;
+}
+
 
 footer {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -159,10 +243,107 @@ footer {
     text-align: center;
     border-top: 7px solid #4aaaa5;
     width: 100%;
-    margin: 0px 0px 0px 0px;
+   margin-top: -50px;
 }
+
 
 
 body {
 	background-image: url("../images/concrete_seamless.png");
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+    #img1,
+    #img2,
+    #img3,
+    #img4 {
+        display: inline-block;
+    }
+    #main-bio {
+        height: 100%;
+        width: 340px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    #img1,
+    #img2,
+    #img3,
+    #img4 {
+        float: left;
+    }
+    #contact-info {
+        display: inline-block;
+        margin: 0px 0px 40px 0px;
+        padding: 6px 0px 0px 20px;
+        width: 650px;
+        text-align: left;
+    }
+    #main-bio {
+        width: 650px;
+    }
+
+    #connectbreak {
+        height: 1px;
+        background: #dddddd;
+        color: #ccc;
+        border: 0;
+        width: 610px;
+    }
+
+    .container {
+        width: 700px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+
+    h1 {
+        width: 600px;
+    }
+
+    #right-corner {
+        display: inline-block;
+        width: 580px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4 {
+        display: inline-block;
+        width: 520px;
+        height: 400px;
+    }
+
+    #main-bio {
+        margin-top: 130px;
+        height: 100%;
+        width: 580px;
+    }
+
+    #contact-info {
+        display: inline-block;
+        margin: 20px 0px 40px 0px;
+        padding: 6px 0px 0px 20px;
+        width: 580px;
+    }
+
+    .pdescription {
+        margin-top: 320px;
+    }
+
+    .container {
+        width: 600px;
+    }
 }
