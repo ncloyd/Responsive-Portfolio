@@ -33,9 +33,8 @@ header {
 	height: 100%;
  }
 
-#right-corner {
+nav {
     float: left;
-    padding: 20px 20px 20px 382px;
     height: 10px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ccc;
@@ -227,7 +226,7 @@ h3 {
 
 html,
 body {
-    height: 94%;
+    height: 100%;
     margin: 0;
 }
 
@@ -257,6 +256,10 @@ body {
 
 @media screen and (max-width: 980px) {
 
+header {
+  height: 94px;
+  }
+
     #img1,
     #img2,
     #img3,
@@ -266,7 +269,7 @@ body {
     #main-bio {
         height: 100%;
         width: 340px;
-    }
+        }
 }
 
 
@@ -274,11 +277,16 @@ body {
 
 @media screen and (max-width: 768px) {
 
+  header {
+  height: 94px;
+  }
+
     #img1,
     #img2,
     #img3,
     #img4 {
         float: left;
+
     }
     #contact-info {
         display: inline-block;
@@ -289,6 +297,7 @@ body {
     }
     #main-bio {
         width: 650px;
+
     }
 
     #connectbreak {
@@ -307,30 +316,36 @@ body {
 
 @media screen and (max-width: 640px) {
 
+header {
+  height: 160px;
+  width: 120%;
+  }
+
     h1 {
-        width: 600px;
+        width: 100%;
+        height: 94px;
     }
 
-    #right-corner {
+    nav {
         display: inline-block;
-        width: 580px;
-        margin: 0px 0px 0px 0px;
-    }
+        margin: 0 auto;
+        width: 100%;
+      }
 
     #img1,
     #img2,
     #img3,
     #img4 {
         display: inline-block;
-        width: 520px;
-        height: 400px;
+        width: 480px;
+        height: 320px;
     }
 
     #main-bio {
         margin-top: 130px;
         height: 100%;
         width: 580px;
-    }
+          }
 
     #contact-info {
         display: inline-block;
@@ -340,10 +355,10 @@ body {
     }
 
     .pdescription {
-        margin-top: 320px;
+        margin-top: 240px;
     }
 
     .container {
-        width: 600px;
+        width: 500px;
     }
 }
